@@ -103,6 +103,7 @@ if (userOptIn === "7") { //debug feature; jump to 7th question
         for (var j = 0; j < seventhQAnswers.length; j++) {
             if (seventhQAnswers[j] === userQ7Input) {
                 var seventhQHit = true;
+                break;
             } else {
                 var seventhQHit = false;
             }
