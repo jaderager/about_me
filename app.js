@@ -98,7 +98,7 @@ if (userOptIn === "7") { //debug feature; jump to 7th question
     var seventhQAnswers = ["pineapple","watermelon","grapefruit","mango","blueberry"];
 
     for (var i = 1; i <= 6; i++) {
-        var userQ7Input = prompt("Guess one of Jade's favorite fruits! All answers in singular form. You have six tries!");
+        var userQ7Input = prompt("Guess one of Jade's favorite fruits! All answers in singular form. You have six tries!").toUpperCase();
 
         for (var j = 0; j < seventhQAnswers.length; j++) {
             if (seventhQAnswers[j] === userQ7Input) {
