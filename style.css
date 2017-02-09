@@ -1,3 +1,13 @@
+* {
+    font-family: "helvetica";
+    background-color: black;
+    color: grey;
+}
+
 p {
     color: #FF0000;
+}
+
+#topTen li {
+    font-family: "courier";
 }
