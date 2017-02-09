@@ -90,12 +90,13 @@ function ask7() {
     for (var i = 1; i <= 6; i++) {
       var userQ7Input = prompt('Guess one of Jade\'s favorite fruits! All answers in singular form. You have six tries!').toUpperCase();
 
+      var seventhQHit;
       for (var j = 0; j < seventhQAnswers.length; j++) {
         if (seventhQAnswers[j] === userQ7Input) {
-          var seventhQHit = true;
+          seventhQHit = true;
           break;
         } else {
-          var seventhQHit = false;
+          seventhQHit = false;
         }
       }
 
