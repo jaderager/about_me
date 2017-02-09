@@ -76,11 +76,11 @@ if (userOptIn === "6") { //debug feature; jump to 6th question
 
     for (var i = 1; i <= 4; i++) {
         var userNumGuess = prompt("Guess Jade's favorite number!");
-        if (userNumGuess < 23) {
+        if (userNumGuess < "23") {
             alert("Too small...");
-        } else if (userNumGuess > 23) {
+        } else if (userNumGuess > "23") {
             alert("Too great...")
-        } else {
+        } else if (userNumGuess === "23") {
             alert("You guessed it! Jade's 23rd birthday has been a quiet affair, but is the most significant!")
             questionsCorrect++;
             var fourthInputCorrect = true;
