@@ -14,9 +14,9 @@ if (userOptIn === "Y") {
         } else if (i === 3) {
             var promptOutput = "Does Jade like the cold?";
         } else if (i === 4) {
-            var promptOutput = "Has Jade ever been to another country?"
+            var promptOutput = "Has Jade ever been to another country?";
         } else if (i === 5) {
-            var promptOutput = "Is Jade getting enough sle...zzZ"
+            var promptOutput = "Is Jade getting enough sle...zzZ";
         }
 
         var input = prompt(promptOutput).toUpperCase();
@@ -27,45 +27,45 @@ if (userOptIn === "Y") {
                 alert("Correct!");
                 questionsCorrect++;
             } else if (input === "N") {
-                alert("Newp.")
+                alert("Newp.");
             } else {
-                alert("Invalid input.")
+                alert("Invalid input.");
             }
         } else if (i === 2) {
             if (input === "Y") {
                 alert("Correct!");
                 questionsCorrect++;
             } else if (input === "N") {
-                alert("Newp.")
+                alert("Newp.");
             } else {
-                alert("Invalid input.")
+                alert("Invalid input.");
             }
         } else if (i === 3) {
             if (input === "Y") {
                 alert("Newp.");
             } else if (input === "N") {
-                alert("Correct!")
+                alert("Correct!");
                 questionsCorrect++;
             } else {
-                alert("Invalid input.")
+                alert("Invalid input.");
             }
         } else if (i === 4) {
             if (input === "Y") {
                 alert("Newp.");
             } else if (input === "N") {
-                alert("Correct!")
-                questionsCorrect++
+                alert("Correct!");
+                questionsCorrect++;
             } else {
-                alert("Invalid input.")
+                alert("Invalid input.");
             }
         } else if (i === 5) {
             if (input === "Y") {
                 alert("zzZ...");
             } else if (input === "N") {
-                alert("zzZ...")
-                questionsCorrect++
+                alert("zzZ...");
+                questionsCorrect++;
             } else {
-                alert("zzzzZ... quit breaking my scripts...zzZ")
+                alert("zzzzZ... quit breaking my scripts...zzZ");
             }
         }
     }
@@ -79,9 +79,9 @@ if (userOptIn === "6") { //debug feature; jump to 6th question
         if (userNumGuess < 23) {
             alert("Too small...");
         } else if (userNumGuess > 23) {
-            alert("Too great...")
+            alert("Too great...");
         } else if (userNumGuess === 23) {
-            alert("You guessed it! Jade's 23rd birthday has been a quiet affair, but is the most significant!")
+            alert("You guessed it! Jade's 23rd birthday has been a quiet affair, but is the most significant!");
             questionsCorrect++;
             var fourthInputCorrect = true;
             break;
@@ -111,13 +111,13 @@ if (userOptIn === "7") { //debug feature; jump to 7th question
 
         if (seventhQHit === true) {
             alert("You guessed correctly!");
-            questionsCorrect++
+            questionsCorrect++;
             alert(seventhQAnswers);
             break;
         }
     }
     if (seventhQHit === false) {
-        alert("You ran out of guesses! *sad trombone*")
+        alert("You ran out of guesses! *sad trombone*");
         alert(seventhQAnswers);
     }
 
