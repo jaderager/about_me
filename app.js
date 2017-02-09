@@ -117,7 +117,7 @@ if (userOptIn === "7") { //debug feature; jump to 7th question
         }
     }
     if (seventhQHit === false) {
-        alert("You ran out of guesses!")
+        alert("You ran out of guesses! *sad trombone*")
         alert(seventhQAnswers);
     }
 
